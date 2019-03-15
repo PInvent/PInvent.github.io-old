@@ -31,3 +31,16 @@
     transform: rotate(360deg);
   }
 }
+
+.home {
+  background-color: #F7F7F7;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .logo {
+  max-width: 250px;
+}
