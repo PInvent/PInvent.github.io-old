@@ -9,7 +9,7 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.8"
   },
-  "homepage": "https://pinvent.github.io/",
+  "homepage": "https://pisanginvent.com/",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "yarn run build",
