@@ -1,6 +1,18 @@
+:root {
+  --pisang: #ffff4e;
+  --pan: #ff9b00;
+  --pink-otak: #e36671;
+  --bgc-primary: #f7f7f7;
+  --text-primary: #4d4b45;
+}
+
 body {
-  background-color: #f7f7f7;
-  color: #4D4C47;
+  background-color: var(--bgc-primary);
+  color: var(--text-primary);
+}
+
+.navbar {
+  background-color: var(--pisang);
 }
 
 .home {
@@ -27,7 +39,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f7f7f7;
   text-align: center;
 }
 
