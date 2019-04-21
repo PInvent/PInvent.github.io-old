@@ -1,9 +1,9 @@
 import React from "react";
-import Router from "./Router";
+import Onepager from "./Home/Onepager"
 
 const App = () => (
   <div>
-    <Router />
+    <Onepager />
   </div>
 );
 
