@@ -1,5 +1,5 @@
 // 1 word text
-export const TEXT_PINVENT = "PInvent";
+export const TEXT_P_INVENT = "P-Invent";
 
 // Navbars
 export const TEXT_HOME = "Home";

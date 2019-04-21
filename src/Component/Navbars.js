@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import "./../App.css";
 import { Navbar, Nav } from "react-bootstrap";
+//import logo from "./../img/pinvent-transparent.png";
 import {
-  TEXT_PINVENT,
+  TEXT_P_INVENT,
   TEXT_HOME,
   TEXT_SERVICES,
   TEXT_ABOUT_US
@@ -13,7 +14,9 @@ class Navbars extends Component {
     return (
       <div>
         <Navbar className="navbar" expand="lg" fixed="top">
-          <Navbar.Brand href="/">{TEXT_PINVENT}</Navbar.Brand>
+          <Navbar.Brand href="/">
+            <span className="logo-title">{TEXT_P_INVENT}</span>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
