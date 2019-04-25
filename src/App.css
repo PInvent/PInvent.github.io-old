@@ -39,7 +39,7 @@ body {
 }
 
 .main-pages {
-  margin-top: 56px;
+  /* margin-top: 56px; */
 }
 
 .in-construction {
@@ -55,4 +55,8 @@ body {
 
 .in-construction .icon {
   font-size: 6em;
+}
+
+@media (min-width: 992px) {
+
 }

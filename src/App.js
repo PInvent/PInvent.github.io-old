@@ -1,5 +1,5 @@
 import React from "react";
-import Onepager from "./Home/Onepager"
+import Onepager from "./Onepager/Onepager"
 
 const App = () => (
   <div>

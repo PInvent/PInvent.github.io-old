@@ -21,8 +21,8 @@ class Navbars extends Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link href="/">{TEXT_HOME}</Nav.Link>
-              <Nav.Link href="/services">{TEXT_SERVICES}</Nav.Link>
-              <Nav.Link href="/about-us">{TEXT_ABOUT_US}</Nav.Link>
+              <Nav.Link href="#services">{TEXT_SERVICES}</Nav.Link>
+              <Nav.Link href="#about-us">{TEXT_ABOUT_US}</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
