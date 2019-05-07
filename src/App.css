@@ -4,6 +4,7 @@
   --pink-otak: #e36671;
   --bgc-primary: #f7f7f7;
   --text-primary: #4d4b45;
+  --pisang-biru: #4ea7ff;
 }
 
 body {
@@ -28,7 +29,7 @@ body {
 
 .home {
   width: 100vw;
-  height: 85vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +40,14 @@ body {
 }
 
 .main-pages {
-  /* margin-top: 56px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main-pages .title {
+  text-align: center;
+  /* height: 10vh; */
+  /* padding: 14px 0; */
 }
 
 .in-construction {
@@ -57,6 +65,40 @@ body {
   font-size: 6em;
 }
 
-@media (min-width: 992px) {
-
+/* About Us */
+#about-us {
+  background-color: var(--pisang-biru);
+  color: azure;
 }
+
+/* footer */
+
+.page-footer {
+  background-color: var(--text-primary);
+  color: var(--bgc-primary);
+}
+
+.page-footer .icon-container {
+  width: 80vw;
+  margin: auto;
+  padding: 30px 0;
+  font-size: 2em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.page-footer a {
+  color: var(--bgc-primary);
+  padding: 0;
+  margin: 0;
+}
+
+.page-footer a:hover {
+  color: var(--pisang);
+}
+
+@media (min-width: 992px) {
+}
+
+/* @media only screen and (min-width: 992px) {
+} */
