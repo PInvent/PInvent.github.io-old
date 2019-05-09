@@ -8,7 +8,7 @@ class Home extends Component {
       <div>
         <div className="home" id="/">
           <img src={logo} alt="logo" className="logo" />
-          <p></p>
+          {/* <h2 className="title">Saya anak Malaysia</h2> */}
         </div>
       </div>
     );

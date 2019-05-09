@@ -11,10 +11,10 @@ class Footer extends Component {
           <a href="/#">
             <i className="fas fa-hashtag" />
           </a>
-          <a href="/#">
+          <a href="https://wa.me/+60189709910?text=Hai%20PInvent,%20boleh%20bantu%20projek%20saya">
             <i className="fab fa-whatsapp" />
           </a>
-          <a href="/#">
+          <a href="https://www.facebook.com/PInvent95/">
             <i className="fab fa-facebook-square" />
           </a>
           <a href="https://www.instagram.com/pinvent95/">

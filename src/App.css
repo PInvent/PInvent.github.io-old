@@ -28,7 +28,8 @@ body {
 }
 
 .home {
-  width: 100vw;
+  /* width: 100vw; */
+  /* if uncomment above, side scrolling appear */
   height: 90vh;
   display: flex;
   justify-content: center;
@@ -37,6 +38,12 @@ body {
 
 .home .logo {
   max-width: 250px;
+  position: absolute;
+  z-index: -5;
+}
+
+.home .title {
+  z-index: 5;
 }
 
 .main-pages {
@@ -69,6 +76,20 @@ body {
 #about-us {
   background-color: var(--pisang-biru);
   color: azure;
+}
+
+/* Contact Us */
+#contact-us i {
+  font-size: 1.3em;
+}
+
+#contact-us .name {
+  font-weight: 450;
+  font-size: 1.1em;
+}
+
+#contact-us .location {
+  font-size: 0.8em;
 }
 
 /* footer */
