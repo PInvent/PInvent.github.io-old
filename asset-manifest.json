@@ -1,14 +1,13 @@
 {
-  "main.css": "/static/css/main.12e75b25.chunk.css",
-  "main.js": "/static/js/main.f0bd7725.chunk.js",
-  "main.js.map": "/static/js/main.f0bd7725.chunk.js.map",
+  "main.css": "/static/css/main.36d6162a.chunk.css",
+  "main.js": "/static/js/main.6702c3b6.chunk.js",
+  "main.js.map": "/static/js/main.6702c3b6.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.c5541365.js",
   "runtime~main.js.map": "/static/js/runtime~main.c5541365.js.map",
-  "static/js/2.f743f4b9.chunk.js": "/static/js/2.f743f4b9.chunk.js",
-  "static/js/2.f743f4b9.chunk.js.map": "/static/js/2.f743f4b9.chunk.js.map",
+  "static/js/2.f4045084.chunk.js": "/static/js/2.f4045084.chunk.js",
+  "static/js/2.f4045084.chunk.js.map": "/static/js/2.f4045084.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.231116c26118d866c37fe0542e1b191d.js": "/precache-manifest.231116c26118d866c37fe0542e1b191d.js",
+  "precache-manifest.f1b24c355c62db2372bce266853df415.js": "/precache-manifest.f1b24c355c62db2372bce266853df415.js",
   "service-worker.js": "/service-worker.js",
-  "static/css/main.12e75b25.chunk.css.map": "/static/css/main.12e75b25.chunk.css.map",
-  "static/media/pinvent-logo.png": "/static/media/pinvent-logo.d787ca74.png"
+  "static/css/main.36d6162a.chunk.css.map": "/static/css/main.36d6162a.chunk.css.map"
 }
