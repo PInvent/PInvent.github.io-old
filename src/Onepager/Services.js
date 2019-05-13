@@ -9,7 +9,7 @@ class Services extends Component {
     return (
       <div id="services">
         <div className="main-pages container">
-          <p>{TEXT_SERVICES}</p>
+          <h2 className="title">{TEXT_SERVICES}</h2>
           <InConstruction />
         </div>
       </div>

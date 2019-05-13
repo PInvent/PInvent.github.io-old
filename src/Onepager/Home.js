@@ -6,9 +6,19 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="home" id="/">
-          <img src={logo} alt="logo" className="logo" />
-          {/* <h2 className="title">Saya anak Malaysia</h2> */}
+        <div className="home container" id="/">
+          {/* <img src={logo} alt="logo" className="logo" /> */}
+          <h2 className="title">
+            Jom
+            <br />
+            Pi<span className="transparent">sang</span>
+            <br />
+            Invent
+            <br />
+            bersama
+            <br />
+            kami
+          </h2>
         </div>
       </div>
     );
