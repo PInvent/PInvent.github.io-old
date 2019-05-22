@@ -97,10 +97,24 @@ body .title {
   text-align: center;
 }
 
+#projects .icon-container {
+  background-color: var(--pan);
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  margin: 14px auto 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #projects i {
-  font-size: 5em;
-  color: #aaa;
-  margin: 24px;
+  font-size: 4em;
+  color: var(--bgc-primary);
+}
+
+#projects .fa-sim-card {
+  font-size: 4.7em;
 }
 
 /* Contact Us */
@@ -159,6 +173,10 @@ body .title {
   text-align: center;
 }
 
+#services .card-container {
+  margin: 0 0 14px;
+}
+
 /* footer */
 .page-footer {
   background-color: var(--text-primary);
@@ -196,6 +214,10 @@ body .title {
 
   #about-us .white-box {
     padding: 24px 50px;
+  }
+
+  #services .card-container {
+    margin: 14px 0 0;
   }
 
   #contact-us .btn-long {

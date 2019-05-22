@@ -13,7 +13,10 @@ class ProjectsList extends Component {
           <Container>
             <Row>
               <Col lg={4} md={12}>
-                <i className="fas fa-charging-station" />
+                <div className="icon-container">
+                  <i className="fas fa-charging-station" />
+                </div>
+
                 <h3>Electronics</h3>
                 <p>Heart beat monitoring system</p>
                 <p>Car blindspot detection system</p>
@@ -26,7 +29,10 @@ class ProjectsList extends Component {
                 <p>RFID attendance system</p>
               </Col>
               <Col lg={4} md={12}>
-                <i className="fas fa-sim-card" />
+                <div className="icon-container">
+                  <i className="fas fa-sim-card" />
+                </div>
+
                 <h3>IoT</h3>
                 <p>Motorcycle tracker and anti-theft device</p>
                 <p>Vending machine monitoring system</p>
@@ -47,8 +53,11 @@ class ProjectsList extends Component {
                 <p>Smart parking system</p>
               </Col>
               <Col lg={4} md={12}>
-                <i className="fas fa-magic" />
-                {/* <i className="fas fa-id-badge" /> */}
+                <div className="icon-container">
+                  <i className="fas fa-magic" />
+                  {/* <i className="fas fa-id-badge" /> */}
+                </div>
+                
                 <h3>Image processing</h3>
                 <p>360 degree smart parking system</p>
                 <p>Pedestrian detection</p>
