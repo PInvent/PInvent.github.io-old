@@ -6,7 +6,9 @@ import Home from "./Home";
 import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs";
 import Services from "./Services";
-import Footer from "../Component/Footer";
+import ProjectsList from "./ProjectsList";
+// import ImageCarousel from "../Component/ImageCarousel";
+// import Footer from "../Component/Footer";
 
 class Onepager extends Component {
   render() {
@@ -14,12 +16,14 @@ class Onepager extends Component {
       <div>
         <Navbars />
         <div className="ui-onepager">
+          {/* <ImageCarousel /> */}
           <Home />
           <AboutUs />
-          {/* <Services /> */}
+          <ProjectsList />
+          <Services />
           <ContactUs />
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

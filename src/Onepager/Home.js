@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "./../img/pinvent-logo.png";
+// import logo from "./../img/pinvent-logo.png";
 import "./../App.css";
 
 class Home extends Component {

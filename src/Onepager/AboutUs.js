@@ -4,8 +4,8 @@ import "./../App.css";
 class AboutUs extends Component {
   render() {
     return (
-      <div id="about-us">
-        <div className="main-pages container">
+      <div id="about-us" className="container">
+        <div className="white-box">
           <h2 className="title">About us</h2>
           <div>
             <h3>Who we are,</h3>

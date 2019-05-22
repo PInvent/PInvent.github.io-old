@@ -13,16 +13,19 @@ class Navbars extends Component {
   render() {
     return (
       <div>
-        <Navbar className="navbar" expand="lg" fixed="top">
+        {/* <Navbar className="navbar" expand="lg" fixed="top"> */}
+        <Navbar className="navbar" expand="lg">
           <Navbar.Brand href="/">
             <span className="logo-title">{TEXT_P_INVENT}</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="/">{TEXT_HOME}</Nav.Link>
-              <Nav.Link href="#services">{TEXT_SERVICES}</Nav.Link>
+              <Nav.Link href="#">{TEXT_HOME}</Nav.Link>
               <Nav.Link href="#about-us">{TEXT_ABOUT_US}</Nav.Link>
+              <Nav.Link href="#projects">Projects</Nav.Link>
+              <Nav.Link href="#services">{TEXT_SERVICES}</Nav.Link>
+              <Nav.Link href="#contact-us">Contact Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
