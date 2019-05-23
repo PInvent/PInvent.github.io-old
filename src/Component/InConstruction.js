@@ -10,7 +10,7 @@ class InConstruction extends Component {
     return (
       <div className="in-construction">
         <i className="fas fa-hard-hat icon" />
-        <h2>{TEXT_IN_CONSTRUCTION}</h2>
+        <h1>{TEXT_IN_CONSTRUCTION}</h1>
         <span>{TEXT_CONSTRUCTION_DESCRIPTION}</span>
       </div>
     );

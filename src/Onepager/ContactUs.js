@@ -58,7 +58,7 @@ class ContactUs extends Component {
     return (
       <div id="contact-us" className="container">
         <div className="white-box">
-          <h2 className="title">Contact Us</h2>
+          <h1 className="title">Contact Us</h1>
           <Row>
             <Col lg={6} md={12}>
               <div className="btn-container">{contact}</div>

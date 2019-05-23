@@ -6,7 +6,7 @@ class AboutUs extends Component {
     return (
       <div id="about-us" className="container">
         <div className="white-box">
-          <h2 className="title">About us</h2>
+          <h1 className="title">About us</h1>
           <div>
             <h3>Who we are,</h3>
             <p>

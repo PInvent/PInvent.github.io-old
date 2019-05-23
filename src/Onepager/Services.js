@@ -33,7 +33,10 @@ let Cardsss = val => (
       <Card.Img variant="top" src={val.img} />
       <Card.Body>
         <Card.Title>{val.title}</Card.Title>
-        <Card.Text>lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id urna vehicula</Card.Text>
+        <Card.Text>
+          lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id urna
+          vehicula
+        </Card.Text>
       </Card.Body>
     </Card>
   </div>
@@ -44,9 +47,18 @@ class Services extends Component {
     return (
       <div id="services" className="container">
         <div className="white-box">
-          <h2 className="title">{TEXT_SERVICES}</h2>
-
+          <h1 className="title">{TEXT_SERVICES}</h1>
           <Row>
+            <Col lg={6} md={12}>
+              <h4>Consultation</h4>
+              <h4>Outsourcing</h4>
+            </Col>
+            <Col lg={6} md={12}>
+              <h4>Class</h4>
+              <h4>Product</h4>
+            </Col>
+          </Row>
+          {/* <Row>
             <Col lg={6} md={12}>
               <Cardsss title="Consultation" img={consultation} />
               <Cardsss title="Outsourcing" img={outsourcing}  />
@@ -55,7 +67,7 @@ class Services extends Component {
               <Cardsss title="Class" img={classes}  />
               <Cardsss title="Product" img={product}  />
             </Col>
-          </Row>
+          </Row> */}
         </div>
       </div>
     );

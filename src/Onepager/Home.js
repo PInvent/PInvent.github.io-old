@@ -8,7 +8,7 @@ class Home extends Component {
       <div>
         <div className="home container" id="/">
           {/* <img src={logo} alt="logo" className="logo" /> */}
-          <h2 className="title">
+          <h1 className="title">
             Jom
             <br />
             Pi<span className="transparent">sang</span>
@@ -18,7 +18,7 @@ class Home extends Component {
             bersama
             <br />
             kami
-          </h2>
+          </h1>
         </div>
       </div>
     );
