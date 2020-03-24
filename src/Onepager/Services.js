@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "./../App.css";
-import { Row, Col, Card } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import { TEXT_SERVICES } from "../Util/Text";
 // import img from "../img/pinvent-logo-wide.jpeg";
-import consultation from "../img/Services/consultation.png";
-import classes from "../img/Services/classes.png";
-import outsourcing from "../img/Services/outsourcing.png";
-import product from "../img/Services/product.png";
+// import consultation from "../img/Services/consultation.png";
+// import classes from "../img/Services/classes.png";
+// import outsourcing from "../img/Services/outsourcing.png";
+// import product from "../img/Services/product.png";
 
 // let serv = [
 //   {
@@ -27,20 +27,20 @@ import product from "../img/Services/product.png";
 //   }
 // ];
 
-let Cardsss = val => (
-  <div className="card-container">
-    <Card>
-      <Card.Img variant="top" src={val.img} />
-      <Card.Body>
-        <Card.Title>{val.title}</Card.Title>
-        <Card.Text>
-          lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id urna
-          vehicula
-        </Card.Text>
-      </Card.Body>
-    </Card>
-  </div>
-);
+// let Cardsss = val => (
+//   <div className="card-container">
+//     <Card>
+//       <Card.Img variant="top" src={val.img} />
+//       <Card.Body>
+//         <Card.Title>{val.title}</Card.Title>
+//         <Card.Text>
+//           lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id urna
+//           vehicula
+//         </Card.Text>
+//       </Card.Body>
+//     </Card>
+//   </div>
+// );
 
 class Services extends Component {
   render() {

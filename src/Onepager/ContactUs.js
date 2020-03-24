@@ -9,7 +9,7 @@ let whatsapp = [
     name: "Amir",
     number: "018-264 3734",
     num: "0182643734",
-    location: "Perak"
+    location: "Selangor"
   },
   {
     name: "Azman",
@@ -28,12 +28,12 @@ let whatsapp = [
     number: "018-322 4100",
     num: "0183224100",
     location: "Perak"
-  },
-  {
-    name: "Saiful",
-    number: "014-819 6655",
-    num: "0148196655",
-    location: "Terengganu"
+  // },
+  // {
+  //   name: "Saiful",
+  //   number: "014-819 6655",
+  //   num: "0148196655",
+  //   location: "Terengganu"
   }
 ];
 
