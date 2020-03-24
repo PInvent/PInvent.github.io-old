@@ -6,16 +6,16 @@ import {} from "../Util/Text";
 
 let whatsapp = [
   {
-    name: "Amir",
-    number: "018-264 3734",
-    num: "0182643734",
-    location: "Selangor"
-  },
-  {
     name: "Azman",
     number: "018-970 9910",
     num: "0189709910",
     location: "Perak"
+  },
+  {
+    name: "Amir",
+    number: "011-2183 5689",
+    num: "01121835689",
+    location: "Selangor"
   },
   {
     name: "Syahmi",
